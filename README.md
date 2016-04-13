@@ -10,6 +10,16 @@ Then, you need to run the follow command to become a *Whatsapp Web* stalker:
 mainRun();
 ```
 
+The status log of the people of your main conversation windows will look like:
+
+```
+!> Felipe Martins - 00:07:21 - offline
+*> Felipe Martins - 00:07:42 - online
+*> Felipe Martins - 00:07:48 - writing...
+*> Felipe Martins - 00:07:50 - online
+*> Felipe Martins - 00:07:52 - offline
+```
+
 When you want to stop stalking, you can run:
 
 ```js
