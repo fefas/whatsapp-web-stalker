@@ -1,3 +1,5 @@
+var myJQuery = $;
+
 var lastMainStatus = undefined;
 var lastMainName = undefined;
 var mainStop = false;
@@ -8,8 +10,8 @@ var main = function () {
       return;
    }
 
-   var spanName   = $('#main div.chat-body div.chat-main span');
-   var spanStatus = $('#main div.chat-body div.chat-status span');
+   var spanName   = myJQuery('#main div.chat-body div.chat-main span');
+   var spanStatus = myJQuery('#main div.chat-body div.chat-status span');
 
    var name = spanName.textContent;
    var open = false;
