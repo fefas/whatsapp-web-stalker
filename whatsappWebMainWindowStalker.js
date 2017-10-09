@@ -11,7 +11,7 @@ var main = function () {
    }
 
    var spanName   = myJQuery('#main div.chat-body div.chat-main span');
-   var spanStatus = myJQuery('#main div.chat-body div.chat-status span');
+   var spanStatus = myJQuery('#main div.chat-body div._3sgkv.Gd51Q span');
 
    var name = spanName.textContent;
    var open = false;
