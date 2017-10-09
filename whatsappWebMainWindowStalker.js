@@ -35,7 +35,7 @@ var main = function () {
       if (open) {
          console.log('!>', name, '-', d.toLocaleTimeString(), '-', status);
       } else {
-         console.log('*>', name, '-', d.toLocaleTimeString(), '-', status);
+         console.log('  ', name, '-', d.toLocaleTimeString(), '-', status);
       }
       lastMainStatus = status;
    }
